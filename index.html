@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ebony Anderson's Computer Science Capstone portfolio featuring software engineering, algorithms, and database development.">
+  <title>Ebony Anderson | Computer Science Portfolio</title>
+  <style>
+    :root { --navy:#14253e; --blue:#2364aa; --light:#f5f7fb; --text:#263447; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--text); line-height:1.65; background:var(--light); }
+    header { background:var(--navy); color:white; padding:20px max(24px,calc((100% - 1080px)/2)); }
+    nav { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+    nav a { color:white; text-decoration:none; margin-right:18px; }
+    nav a:hover,nav a:focus-visible { text-decoration:underline; }
+    .hero { background:var(--navy); color:white; padding:75px 24px 95px; }
+    .hero-inner,main { max-width:1080px; margin:auto; }
+    .eyebrow { color:#a9caff; font-size:.85rem; font-weight:bold; letter-spacing:1.5px; }
+    h1 { font-size:clamp(2rem,5vw,3.5rem); line-height:1.15; max-width:750px; }
+    .hero p { max-width:700px; font-size:1.12rem; }
+    .button { display:inline-block; background:#fff; color:var(--navy); padding:11px 22px; border-radius:6px; text-decoration:none; font-weight:bold; margin-top:12px; }
+    main { padding:30px 24px 70px; }
+    section { padding-top:28px; }
+    h2 { color:var(--navy); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+    .card { background:white; border:1px solid #dce3ed; border-radius:12px; padding:25px; }
+    .card h3 { margin-top:0; color:var(--navy); }
+    .tag { display:inline-block; background:#e8effa; color:#184f87; padding:4px 10px; border-radius:20px; font-size:.8rem; margin:3px; }
+    a { color:#18589a; }
+    footer { background:var(--navy); color:white; padding:24px; text-align:center; }
+    footer a { color:white; }
+    @media(max-width:600px) { nav { align-items:flex-start; } nav a { display:inline-block; margin-bottom:8px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <strong>Ebony Anderson | CS 499</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#review">Code Review</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">SOFTWARE ENGINEERING · AI · HEALTHCARE TECHNOLOGY</div>
+      <h1>Building technology that solves real problems.</h1>
+      <p>I'm Ebony Anderson, a Computer Science degree candidate and experienced healthcare technology Product Owner. I combine software development skills with a practical understanding of business needs, data, and the people who depend on technology.</p>
+      <a class="button" href="#projects">Explore My Projects</a>
+    </div>
+  </div>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My background in healthcare technology introduced me to the challenges organizations face when building and maintaining complex software. Through my Computer Science studies at Southern New Hampshire University, I've expanded my skills in programming, application design, algorithms, databases, and security.</p>
+      <p>This portfolio documents my CS 499 capstone, including original applications, planned improvements, technical decisions, and evidence of my development as a software engineer.</p>
+      <div>
+        <span class="tag">Java</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Android</span><span class="tag">Software Design</span><span class="tag">Data Analysis</span>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Capstone Projects</h2>
+      <p>Each project will document the original software, the problem being addressed, the enhancement process, and the results of testing.</p>
+      <div class="grid">
+        <article class="card">
+          <h3>01 · Software Design & Engineering</h3>
+          <p><strong>Android Inventory Management</strong></p>
+          <p>An inventory tracking application with authentication and low-stock notifications. The proposed enhancement focuses on improving application architecture and testability.</p>
+          <span class="tag">Java</span><span class="tag">Android</span>
+          <p><small>Enhancement planned · Module Three</small></p>
+        </article>
+        <article class="card">
+          <h3>02 · Algorithms & Data Structures</h3>
+          <p><strong>AI Pathfinding</strong></p>
+          <p>A proposed enhancement to an existing AI project, focusing on algorithm selection, performance measurement, and evaluating trade-offs.</p>
+          <span class="tag">Python</span><span class="tag">Algorithms</span>
+          <p><small>Enhancement planned · Module Four</small></p>
+        </article>
+        <article class="card">
+          <h3>03 · Database Engineering</h3>
+          <p><strong>Inventory Data Management</strong></p>
+          <p>A proposed extension of the Android inventory application's database functionality, with a focus on data integrity, efficient retrieval, and reporting.</p>
+          <span class="tag">SQLite</span><span class="tag">Data Management</span>
+          <p><small>Enhancement planned · Module Five</small></p>
+        </article>
+      </div>
+    </section>
+    <section id="review">
+      <h2>Code Review & Technical Documentation</h2>
+      <div class="card">
+        <p>My capstone code review will explain how the original applications work, identify opportunities for improvement, and outline the enhancements planned for software design, algorithms, and databases.</p>
+        <p><strong>Status:</strong> Code review scheduled for Module Two. Video and supporting documentation will be linked here once available.</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Connect With Me</h2>
+      <p>Explore my source code and other technical projects on <a href="https://github.com/EbonyTaj">GitHub</a>.</p>
+    </section>
+  </main>
+  <footer>Ebony Anderson · SNHU Computer Science Capstone · CS 499</footer>
+</body>
+</html>
